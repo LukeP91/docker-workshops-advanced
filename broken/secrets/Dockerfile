@@ -1,0 +1,6 @@
+FROM busybox:1.24
+
+ENV SECRET="SUPER_SECRET"
+
+
+
