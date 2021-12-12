@@ -5,4 +5,4 @@ WORKDIR /build
 RUN go build -o web .
 
 EXPOSE 5000
-CMD ["/app/web"]
+CMD ["/build/web"]
